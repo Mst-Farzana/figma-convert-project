@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/figma-convert-project//_next/:path+",
+        "destination": "/figma-convert-project/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
